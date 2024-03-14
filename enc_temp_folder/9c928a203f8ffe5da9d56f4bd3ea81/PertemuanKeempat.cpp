@@ -57,7 +57,6 @@ void display() {
     }
     cout << "jumalah pass = " << n - 1 << endl; // menampilkan total angka dari elemen yang benar
     cout << endl;
-
 }
 
 int main()
