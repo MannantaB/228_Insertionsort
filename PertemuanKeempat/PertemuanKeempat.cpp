@@ -13,7 +13,7 @@ void insertionsort() {
 
         while (j >= 0 && arr[j] > temp) //step 4
         {
-            arr[j] = arr[j + 1]; //step 4a
+            arr[j + 1] = arr[j]; //step 4a
             j = j - 1; //step 4b
         }
 
